@@ -39,8 +39,9 @@ int main()
         }
         table.push_back(temp);
     }
+    leader.erase(table.size() + 1);
     file.close();
-    cout<<"Name: Md Masleuddin\nRoll:21BCS028\n"<<endl;
+    cout<<"Name: Md Kashiful Haque\nRoll:21BCS029\n"<<endl;
 
     // ****************************Printing Block**************************
 
@@ -50,8 +51,10 @@ int main()
     for (auto it = leader.begin(); it != leader.end(); it++)
     {
         cout << setw(10) << left << *it;
+
         cout << table[*it - 1] << endl;
     }
+
     cout << "Block statements are:" << endl;
     auto it = leader.begin();
     int i = 0, j = 1, end = *it;

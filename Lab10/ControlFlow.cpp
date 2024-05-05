@@ -53,7 +53,8 @@ int main()
         table.push_back(temp);
     }
     file.close();
-    cout<<"Name: Md Masleuddin\nRoll:21BCS028\n"<<endl;
+    leader.erase(table.size() + 1);
+    cout<<"Name: Md Kashiful Haque\nRoll:21BCS029\n"<<endl;
 
     // ****************************Printing Block**************************
 
